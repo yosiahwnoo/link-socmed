@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website | Yosia Ari Hawino</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="foto"></div>
+      <div class="ig" onclick="linkInstagram()">
+        <i class="iconoir-instagram"></i>
+        <p>Instagram</p>
+      </div>
+      <div class="twitter" onclick="linkTwitter()">
+        <i class="iconoir-x"></i>
+        <p>Twitter</p>
+      </div>
+      <div class="tiktok" onclick="linkTiktok()">
+        <i class="iconoir-tiktok"></i>
+        <p>Tiktok</p>
+      </div>
+    </div>
+
+    <script>
+      function linkInstagram() {
+        var linkUrl = "https://instagram.com/yosiahwnoo";
+        window.open(linkUrl, "_blank");
+      }
+      function linkTwitter() {
+        var linkUrl = "https://x.com/youkkoso";
+        window.open(linkUrl, "_blank");
+      }
+      function linkTiktok() {
+        var linkUrl = "https://tiktok.com/@hwinsky";
+        window.open(linkUrl, "_blank");
+      }
+    </script>
+  </body>
+</html>
